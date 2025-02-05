@@ -18,11 +18,15 @@
             padding: 0;
             background-color: #f4f4f4;
         }
-        header {
+        .header-container {
             background-color: #003366;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+        header {
             color: white;
             padding: 20px;
-            text-align: center;
         }
         .content {
             max-width: 1200px;
@@ -41,12 +45,14 @@
             padding: 10px;
             border-radius: 5px;
         }
+        .image-container {
+            text-align: center;
+            background-color: #003366;
+            padding: 40px 20px 20px;
+        }
         .image-container img {
-            position: absolute; 
-            top: 10px; 
-            left: 150px; 
-            width: 150px; 
-            height: auto; 
+            width: 150px;
+            height: auto;
         }
         footer {
             text-align: center;
@@ -58,14 +64,15 @@
     </style>
 </head>
 <body>
-    <div class="image-container">
-        <img src="Logo-removebg-preview.png" alt="Logo">
+    <div class="header-container">
+        <div class="image-container">
+            <img src="Logo-removebg-preview.png" alt="Logo">
+        </div>
+        <header>
+            <h1>Sindicato de Choferes Profesionales de Tungurahua</h1>
+            <p>Comprometidos con la formación de conductores profesionales</p>
+        </header>
     </div>
-
-    <header>
-        <h1>Sindicato de Choferes Profesionales de Tungurahua</h1>
-        <p>Comprometidos con la formación de conductores profesionales</p>
-    </header>
 
     <div class="content">
         <h2>Bienvenidos</h2>
@@ -85,3 +92,4 @@
     </footer>
 </body>
 </html>
+
